@@ -31,7 +31,7 @@ const Menu = () => {
       <HamburgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
       {isOpen && (
         <div
-          className={`bg-emerald-600 text-white absolute left-0 top-24 h-[calc(100vh-6rem)] w-full flex flex-col justify-center items-center text-xl gap-4 z-10 animate-slideIn`}
+          className={`bg-emerald-700 text-white absolute left-0 top-24 h-[calc(100vh-6rem)] w-full flex flex-col justify-center items-center text-xl gap-4 z-10 animate-slideIn`}
         >
           {links.map((link, index) => (
             <Link key={index} href={link.href} onClick={() => setIsOpen(false)}>

@@ -19,10 +19,15 @@ const config: Config = {
         "0%": { transform: "translateX(100%)" },
         "100%": { transform: "translateX(0)" },
       },
+      fade: {
+        "0%": { opacity: "0" },
+        "100%": { opacity: "1" },
+      },
     },
     animation: {
       slideIn: "slide 300ms ease-in-out",
       slideOut: "slide 300ms ease-in-out reverse",
+      fade: "fade 300ms ease-in-out",
     },
   },
   plugins: [],
