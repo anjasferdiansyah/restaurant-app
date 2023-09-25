@@ -5,7 +5,7 @@ const Cart = () => {
   return (
     <div className="h-[100vh] md:h-[calc(100vh-9rem)] flex flex-col text-emerald-700 lg:flex-row">
       {/* Product Container */}
-      <div className="w-full h-full overflow-scroll flex flex-col justify-center items-center lg:h-full lg:w-2/3 md:px-20 2xl:px-40">
+      <div className="w-full h-full overflow-scroll flex flex-col justify-center lg:h-full lg:w-2/3 lg:px-20 2xl:px-40">
         {/* single item */}
         <div className="flex gap-4 justify-between mb-4 border-b-2 border-emerald-700/10 py-2 ">
           <Image src={"/temporary/p1.png"} alt="" width={100} height={100} />
