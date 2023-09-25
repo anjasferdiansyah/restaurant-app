@@ -8,7 +8,7 @@ import CallIcon from "@mui/icons-material/Call";
 const Navbar = () => {
   const user = false;
   return (
-    <div className="h-12 md:h-20 text-emerald-700 p-4 flex justify-between items-center border-b-2 border-emerald-700 md:text-lg uppercase lg:px-20 xl:px-40">
+    <div className="h-12 w-full md:h-20 text-emerald-700 p-4 flex justify-between items-center border-b-2 border-emerald-700 md:text-lg uppercase lg:px-20 xl:px-40">
       {/* Left Links */}
       <div className="hidden md:flex flex-1 gap-4">
         <Link href="/">Home</Link>

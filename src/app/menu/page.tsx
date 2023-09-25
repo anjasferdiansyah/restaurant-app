@@ -17,7 +17,9 @@ const MenuPage = () => {
             </h1>
             <p className="text-xs md:text-sm my-6">{category.desc}</p>
             <button
-              className={`hidden md:block bg-${category.color} text-${
+              className={`hidden md:block ${
+                category.color === "black" ? "bg-black" : "bg-white"
+              } text-${
                 category.color === "black" ? "white" : "emerald-700"
               } px-4 py-2 rounded-md`}
             >
